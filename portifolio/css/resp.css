@@ -1,0 +1,54 @@
+@media (max-width:320px){
+    .nome {
+        position: absolute;
+        top: 290px;
+        left: 50px;
+        width: 350px;
+        height: auto;
+        border-radius: 8px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: black;
+        font-family: monospace;
+        padding: 2rem;
+    
+    }
+
+    .linguagem {
+        width: 550px;
+        height: 200px;
+        margin-top: -20rem;
+        
+
+    }
+    
+
+}
+@media (max-width:750px){
+    .nome {
+        position: absolute;
+        top: 290px;
+        left: 50px;
+        width: 500px;
+        height: auto;
+        border-radius: 8px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: black;
+        font-family: monospace;
+        padding: 2rem;
+    }
+
+    .linguagem {
+        width: 550px;
+        height: 200px;
+        margin-top: -20rem;
+
+    }
+}
+
+

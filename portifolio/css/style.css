@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    
+    background-image: url("../img/4861242.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.603);
+    position: fixed;
+    top:0;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    font-size: 20px;
+    color: rgb(70, 130, 180);
+    z-index: 10000;
+    height: auto;
+    backdrop-filter: blur(4px);
+}
+main{
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+}
+.info-social {
+    width: 30%;
+}
+.info-social ul{
+    display: flex;
+    gap:1rem;
+
+}
+.contatos{
+    width: 70%;
+}
+.contatos ul{
+    display:flex;
+    gap:10rem;
+}
+
+.contat a:hover{
+    color: #6d1ec9;
+}
+
+svg{
+    transition: all ease-in-out .2s;
+    
+}
+
+svg:hover{
+    transform: translateY(-10px);
+    color: #6d1ec9;
+}
+
+.nome {
+    position: absolute;
+    top: 290px;
+    left: 90px;
+    width: 1000px;
+    height: auto;
+    border-radius: 8px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    font-family: monospace;
+    padding: 3.5rem;
+
+}
+
+.sobre {
+    margin-top: 50rem;
+    background-color: #4169E1;
+    top: 700px;
+    color: white;
+    padding: 2rem;
+    width: 100vw;
+    height: auto;
+    font-size: 25px;
+
+}
+
+.sobreh2 {
+    color: white;
+    border-radius: 5px, #000;
+}
+
+.nome-p {
+    color: rgb(70, 130, 180);
+}
+
+.sobrehr {
+    width: 300px;
+}
+
+.text-p {
+    margin-top: 1rem;
+    font-size: 20px;
+    min-width: 600px;
+    max-width: 1000px;
+}
+
+svg {
+    margin-top: 1rem;
+    color: #4169E1;
+    width: 35px;
+    height: 35px;
+}
+
+.contact {
+    display: block;
+}
+.contat:hover{
+    transform: translateY(-3px);
+    color: #ff1212;
+}
+.habili {
+    /*margin-left: 5%;*/
+    box-shadow: 1px rgb(14, 89, 133);
+    background-color:#2947a3;
+    border-radius: 15px;
+    width: 80%;  
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+
+}
+.habilitext {
+    margin-top: 2rem;
+    color: aliceblue;
+    
+}
+.habili > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.habilidades {
+    left:50px;
+    flex-basis: 180px;
+}
+
+.img-hab {
+    margin-top: 7rem;
+}
+
+
+.linguagem {
+    width: 550px;
+    height: 200px;
+    margin-top: -20rem;
+}
+
+.projetostext h1{
+    position: relative;
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#projetostext{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.projects{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;   
+    flex-direction: column;
+}
+
+.rodape{
+    margin-top: 8rem;
+    background-color: #4169E1;
+    width: 100vw;
+    height: 5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+}
+
+.projetos_conteiner{
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 60px;
+    display: flex;
+
+}
+
+.proj_card{
+    width: 200px;
+    height: 200px;
+    background-color: #858585cc;
+    transition:all ease-in-out .2s ;
+    border-radius: 5%;
+}
+
+.proj_card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    background-color: #4169E1;
+}
+.card_hab{
+    display:none;
+}
+.card_hab.active {
+    display: block;
+    animation: carrossel .8s;
+}
+.botoes-slider{
+    display:inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    gap: 7px;
+
+    transform: translateY(5em);
+}
+.select{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background: #ffffff;
+    cursor: pointer;
+    transition: all .5s;
+    position: relative;
+}
+
+.slider_hab {
+    display: flex;
+    flex-direction: column;
+
+    gap: 3em;
+}
+
+#fundo_hab{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
